@@ -1,0 +1,286 @@
+@charset "utf-8";
+/*CSS Document*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea,img,div{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+/*clearFloat*/
+.clearfix{clear:both;}
+.head{
+	background-color: #F5F5F5;
+}
+.workspace div{
+display: inline-block;
+}
+.workspace div a{
+	color: #53868B;
+	font-size: 14px;
+}
+.workspace{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.right div{
+	margin-left: 5px;
+}
+.icon{
+	position: relative;
+	width: 280px;
+	height: 100px;
+}
+.icon_img img{
+	width: 200px;
+	height: 100px;
+}
+.icon_p p{
+	position: absolute;
+	top: 55px;
+	font-size: 25px;
+}
+.car_find{
+	float: right;
+	margin-top: 50px;
+}
+.car_text{
+	width: 200px;
+	height: 30px;
+	float: left;
+	border: 1px solid #778899;
+}
+.car_btn{
+	border: none;
+	width: 45px;
+	height: 30px;
+	background-color: #698B22;
+	color: white;
+	float: right;
+}
+.car{
+	margin-top: 100px;
+	color: #53868B;
+	font-size: 14px;
+}
+.leader{
+	color: red;
+	font-size: 20px;
+}
+.workspaces{
+	width: 1000px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.workspaces div{
+	display: inline-block;
+}
+.car_head{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #F5F5F5;
+}
+.goods{
+	margin-left: 50px;
+}
+.car_left{
+	margin-left: 25px;
+}
+.actions{
+	margin-right: 50px;
+}
+.comment{
+	margin-right: 40px;
+}
+.num{
+	margin-right: 100px;
+}
+.price{
+	margin-right: 65px;
+}
+.single-goods{
+	width: 1000px;
+	height: 200px;
+	position: relative;
+	border: 1px solid #F5F5F5;
+	border-top-width: 2px;
+	border-top-color: #00868B;
+}
+.single-input{
+	margin-top: 40px;
+	margin-left: 25px;
+}
+.single-img{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 40px;
+	left:44px;
+}
+.single-img img{
+	width: 100%;
+	height: 100%;
+}
+.single-p{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	background-color: yellow;
+	top: 40px;
+	left:150px;
+}
+.single-price{
+	position: absolute;
+	left: 590px;
+	top: 60px;
+}
+.single-num{
+	position: absolute;
+	left: 680px;
+	top: 60px;
+}
+.single-num input{
+	width: 50px;
+	text-align: center;
+}
+.single-num a{
+	display: inline-block;
+	width: 20px;
+	height: 17px;
+	border:1px solid black;
+	text-align: center;
+}
+.single-all{
+	position: absolute;
+	top: 60px;
+	right: 100px;
+
+}
+.single-action{
+	position: absolute;
+	right: 40px;
+	top: 50px;
+
+}
+.single-action a{
+	display: block;
+}
+#createOrder{
+	width:200px;
+	height:50px;
+	text-align:center;
+}
+.left img{
+	width:200px;
+	height: 100px;
+}
+.regist_head_workspace{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.regist_head{
+	height: 100px;
+	box-shadow: 10px 10px 5px #F5F5F5;
+}
+.right .right_p,.right .right_a{
+	display: inline-block;
+	line-height: 100px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.right_p{
+color: #96CDCD;
+}
+.right_a{
+	color: #2F4F4F;
+}
+.right_a:hover{
+	color: #458B00;
+}
+.welcome{
+	float: right;
+	width: 200px;
+	height:100px;
+	font-size: 18px;
+	margin-top: 60px;
+}
+.regist_body_workspace{
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.input{
+	height: 50px;
+	width: 500px;
+	margin-top: 45px;
+	position: relative;
+	border:1px solid #DCDCDC;
+	line-height: 50px;
+}
+.input p{
+	position: absolute;
+	left: 0px;
+	font-size: 15px;
+}
+.input input{
+	position: absolute;
+	left: 70px;
+	width: 425px;
+	border:none;
+	font-size: 15px;
+	height: 45px;
+}
+.input input[type="submit"]{
+	background-color: rgba(0,0,0,0);
+	left: 30px;
+	color: white;
+}
+#submit{
+	background-color: red;
+}
+.foot div{
+	display: inline-block;
+	margin-left:15px;
+	margin-top: 30px;
+	color: rgba(82,139,139,1);
+	font-size: 15px;
+}
+#disclaimer{
+	display:block;
+	margin-top: 30px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	color: rgba(82,139,139,1);
+	font-size: 15px;
+}
+#yanzheng{
+	height:45px;
+	position:absolute;
+	right:0;
+}
+#icons_home{
+	width:20px;
+	height:20px;
+	margin-buttom:2px;
+}
+.inner{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:200px;
+	text-align:center;
+	font-size:20px;
+	color:#778899;
+}
